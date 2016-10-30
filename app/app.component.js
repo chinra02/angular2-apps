@@ -14,8 +14,8 @@ var AppComponent = (function () {
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<h1>My First Angular App</h1>'
+            selector: 'ng2-app',
+            template: " <smart-table-component \n                    restUrl=\"enrollment/planByInstallBaseId\" \n                    columnJsonName=\"entry_eclaim_columns\"> \n                </smart-table-component>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
