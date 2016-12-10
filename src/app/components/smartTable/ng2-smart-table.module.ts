@@ -1,3 +1,4 @@
+import { DropdownModule } from 'ng2-dropdown';
 import { Ng2SmartTableComponent } from './ng2-smart-table/ng2-smart-table.component';
 import { ColumnService } from './../../services/column.service';
 import { JwtModule } from './../../jwt/jwt.module';
@@ -27,7 +28,6 @@ import { TemplateComponent } from './ng2-smart-table/components/search/templates
 import { RowAction } from './ng2-smart-table/components/actions/row-action.component';
 import { HeaderActions } from './ng2-smart-table/components/actions/header-actions.component';
 import { Ng2DropDownComponent } from '../ng2dropdown/ng2dropdown.component';
-import { DropdownModule } from 'ng2-dropdown';
 import { tableSettings } from './ng2-smart-table/components/tableSettings/table-settings.component';
 import { SmartSelector } from './ng2-smart-table/components/selector/selector.component';
 import { NgModule } from '@angular/core';

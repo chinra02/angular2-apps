@@ -1,3 +1,4 @@
+import { DropdownModule } from 'ng2-dropdown';
 import { SmartTableActions } from './actions/smart-table/smart-table.actions';
 import { AppComponent } from './app.component';
 import { Configuration } from './jwt/configuration';
@@ -8,7 +9,6 @@ import { SmartTableComponent } from './components/smartTable/smart-table.compone
 import { Ng2SmartTableModule } from './components/smartTable/ng2-smart-table.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DropdownModule } from 'ng2-dropdown';
 import { NgReduxModule, NgRedux, DevToolsExtension } from 'ng2-redux';
 import { AUTH_PROVIDERS } from 'angular2-jwt';
 import { provideAuth } from 'angular2-jwt';
